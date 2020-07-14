@@ -1,4 +1,4 @@
-package com.tabula.announcement.repository;
+package com.tabula.repository;
 
 import com.tabula.announcement.model.AnnouncementEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
