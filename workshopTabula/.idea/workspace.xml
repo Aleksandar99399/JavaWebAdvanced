@@ -2,41 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72e1eb6a-9f37-4a37-8f1e-16adadf7f0ec" name="Default Changelist" comment="all commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tabula/announcement/model/AnnouncementMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tabula/init.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tabula/service/AnnouncementService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tabula/service/impl/AnnouncementServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tabula/users/RoleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tabula/users/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tabula/users/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tabula/users/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tabula/users/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tabula/web/AnnouncementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tabula/web/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changeLog/db.changelog-2020-05-23-roles.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changeLog/db.changelog-2020-05-23-users.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/tabula.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/announcement/announcements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/announcement/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/announcement/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/event/events-navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/event/events.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/event/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/bootstrap-js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tabula/announcement/repository/AnnouncementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tabula/repository/AnnouncementRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changeLog/db.changelog-2020-05-23-announcements.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changeLog/db.changelog-2020-05-23-announcements.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changeLog/db.changelog-master.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changeLog/db.changelog-master.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +32,12 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tabula_workshop: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -210,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594711993843</updated>
       <workItem from="1594712000058" duration="8880000" />
-      <workItem from="1594726442650" duration="3794000" />
+      <workItem from="1594726442650" duration="11945000" />
     </task>
     <task id="LOCAL-00001" summary="third commit">
       <created>1594712688341</created>
@@ -266,58 +241,58 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="805" y="244" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1594726731954" />
-    <state width="677" height="222" key="GridCell.Tab.0.bottom" timestamp="1594729079847">
+    <state width="1323" height="222" key="GridCell.Tab.0.bottom" timestamp="1594739496392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="677" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594729079847" />
-    <state width="677" height="222" key="GridCell.Tab.0.center" timestamp="1594729079847">
+    <state width="1323" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594739496392" />
+    <state width="1323" height="222" key="GridCell.Tab.0.center" timestamp="1594739496391">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="677" height="222" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594729079847" />
-    <state width="677" height="222" key="GridCell.Tab.0.left" timestamp="1594729079847">
+    <state width="1323" height="222" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594739496391" />
+    <state width="1323" height="222" key="GridCell.Tab.0.left" timestamp="1594739496391">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="677" height="222" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594729079847" />
-    <state width="677" height="222" key="GridCell.Tab.0.right" timestamp="1594729079847">
+    <state width="1323" height="222" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594739496391" />
+    <state width="1323" height="222" key="GridCell.Tab.0.right" timestamp="1594739496391">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="677" height="222" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594729079847" />
-    <state width="677" height="222" key="GridCell.Tab.1.bottom" timestamp="1594729079848">
+    <state width="1323" height="222" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594739496391" />
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1594739496392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="677" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594729079848" />
-    <state width="677" height="222" key="GridCell.Tab.1.center" timestamp="1594729079847">
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594739496392" />
+    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1594739496392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="677" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594729079847" />
-    <state width="677" height="222" key="GridCell.Tab.1.left" timestamp="1594729079847">
+    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594739496392" />
+    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1594739496392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="677" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594729079847" />
-    <state width="677" height="222" key="GridCell.Tab.1.right" timestamp="1594729079847">
+    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594739496392" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1594739496392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="677" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594729079847" />
-    <state width="677" height="222" key="GridCell.Tab.2.bottom" timestamp="1594729079848">
+    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594739496392" />
+    <state width="1323" height="222" key="GridCell.Tab.2.bottom" timestamp="1594739496393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="677" height="222" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594729079848" />
-    <state width="677" height="222" key="GridCell.Tab.2.center" timestamp="1594729079848">
+    <state width="1323" height="222" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594739496393" />
+    <state width="1323" height="222" key="GridCell.Tab.2.center" timestamp="1594739496392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="677" height="222" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1594729079848" />
-    <state width="677" height="222" key="GridCell.Tab.2.left" timestamp="1594729079848">
+    <state width="1323" height="222" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1594739496392" />
+    <state width="1323" height="222" key="GridCell.Tab.2.left" timestamp="1594739496392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="677" height="222" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1594729079848" />
-    <state width="677" height="222" key="GridCell.Tab.2.right" timestamp="1594729079848">
+    <state width="1323" height="222" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1594739496392" />
+    <state width="1323" height="222" key="GridCell.Tab.2.right" timestamp="1594739496392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="677" height="222" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1594729079848" />
-    <state width="208" height="457" key="HiddenNamespacesPopup" timestamp="1594728360201">
+    <state width="1323" height="222" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1594739496392" />
+    <state width="208" height="457" key="HiddenNamespacesPopup" timestamp="1594739007664">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="208" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1594728360201" />
+    <state width="208" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1594739007664" />
     <state x="526" y="110" key="IDE.errors.dialog" timestamp="1594716187999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
