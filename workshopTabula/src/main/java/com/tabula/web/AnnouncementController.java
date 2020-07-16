@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @AllArgsConstructor
 @Controller
-@RequestMapping("/announcement")
+@RequestMapping("/announcements")
 public class AnnouncementController {
 
 
