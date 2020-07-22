@@ -37,7 +37,7 @@ thymeleaf:
           enabled: true
           paths: /css/**
 server:
-  port: 8000
+  port: 8002
   compression:
     enabled: true
     mime-types: text/html,text/xml,text/plain,text/css,application/javascript,application/json
