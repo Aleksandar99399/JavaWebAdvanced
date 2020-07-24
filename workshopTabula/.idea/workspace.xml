@@ -12,6 +12,65 @@
       <change afterPath="$PROJECT_DIR$/../events/src/main/java/com/events/EventsApplication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../events/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../events/src/test/java/com/events/EventsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/eec59a4c-fea9-4691-b875-936fd948adb7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/eec59a4c-fea9-4691-b875-936fd948adb7/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/eec59a4c-fea9-4691-b875-936fd948adb7/storage_v2/_src_/schema/tabula_workshop.kcWkhg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/TabulaApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/announcement/model/AnnouncementDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/announcement/model/AnnouncementEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/announcement/model/AnnouncementMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/announcement/model/AnnouncementMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/config/PasswordConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/config/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/config/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/init.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/repository/AnnouncementRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/service/AnnouncementService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/service/impl/AnnouncementServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/stats/interceptors/StatsInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/stats/service/StatService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/users/RoleEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/users/UserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/users/repository/RoleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/users/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/users/service/UserDetailsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/web/AnnouncementController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/web/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/web/StatsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/tabula/web/login/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/tabula/TabulaApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/com/tabula/announcement/model/AnnouncementMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/db/changeLog/db.changelog-2020-05-23-announcements.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/db/changeLog/db.changelog-2020-05-23-roles.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/db/changeLog/db.changelog-2020-05-23-users.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/db/changeLog/db.changelog-master.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/static/css/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/static/css/tabula.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/announcement/announcements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/announcement/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/announcement/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/event/events-navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/event/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/event/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/fragments/bootstrap-js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/fragments/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/fragments/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/home/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/stats/stats.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
@@ -198,7 +257,7 @@
       <workItem from="1594726442650" duration="11945000" />
       <workItem from="1594905106929" duration="24451000" />
       <workItem from="1595335883731" duration="1122000" />
-      <workItem from="1595361616433" duration="5415000" />
+      <workItem from="1595361616433" duration="5682000" />
     </task>
     <task id="LOCAL-00001" summary="third commit">
       <created>1594712688341</created>
@@ -235,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594911320860</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="security success">
+      <created>1595597875579</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595597875579</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,10 +395,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="368" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594717507078" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1594911322151">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595597878049">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594911322151" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595597878049" />
     <state x="869" y="257" width="326" height="237" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1595324949586">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
