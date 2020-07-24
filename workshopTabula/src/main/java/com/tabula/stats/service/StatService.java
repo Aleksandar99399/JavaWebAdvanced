@@ -12,7 +12,7 @@ public class StatService {
     private Instant startedOn=Instant.now();
 
     public void increaseRequestCount(){
-        requestCount.incrementAndGet();
+        requestCount.incrementAndGet()  ;
     }
 
     public int getRequestCount(){
