@@ -2,37 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72e1eb6a-9f37-4a37-8f1e-16adadf7f0ec" name="Default Changelist" comment="security success">
-      <change afterPath="$PROJECT_DIR$/../Aspect Oriented Programming/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aspect Oriented Programming/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aspect Oriented Programming/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aspect Oriented Programming/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aspect Oriented Programming/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aspect Oriented Programming/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aspect Oriented Programming/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aspect Oriented Programming/src/main/java/bg/softuni/aop/AopApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aspect Oriented Programming/src/main/java/bg/softuni/aop/AopInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aspect Oriented Programming/src/main/java/bg/softuni/aop/aspect/BasicPointcutSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aspect Oriented Programming/src/main/java/bg/softuni/aop/models/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aspect Oriented Programming/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aspect Oriented Programming/src/test/java/bg/softuni/aop/AopApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxies/proxies/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxies/proxies/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxies/proxies/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxies/proxies/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxies/proxies/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxies/proxies/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxies/proxies/proxies.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxies/proxies/src/main/java/proxies/GreaterInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxies/proxies/src/main/java/proxies/ProxyGreater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxies/proxies/src/main/java/proxies/RealGreater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxies/proxies/src/main/java/proxies/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxies/proxies/src/main/java/proxies/cache/Cacheble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxies/proxies/src/main/java/proxies/cache/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxies/proxies/src/main/java/proxies/cache/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxies/proxies/src/main/java/proxies/cache/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxies/proxies/src/main/java/proxies/cache/StudentServiceInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxies/proxies/src/main/java/proxies/cache/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../beadpuzzle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../beadpuzzle/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aspect Oriented Programming/src/main/java/bg/softuni/aop/joinpoint/JoinPointSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aspect Oriented Programming/src/main/java/bg/softuni/aop/AopInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Aspect Oriented Programming/src/main/java/bg/softuni/aop/AopInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aspect Oriented Programming/src/main/java/bg/softuni/aop/aspect/BasicPointcutSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Aspect Oriented Programming/src/main/java/bg/softuni/aop/aspect/BasicPointcutSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
