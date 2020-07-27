@@ -3,8 +3,9 @@
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/tabula_workshop?useTimezone=true&serverTimezone=UTC&createDatabaseIfNotExist=true
-    username: "root"
-    password: "Aleksandar99"
+    #от дясно е default value - environment variable is with priority
+    username: "${DB_USER:}"
+    password: "${DB_PASSWORD:}"
     continueOnError: true
     driver-class-name: "com.mysql.cj.jdbc.Driver"
     hikari:
@@ -19,8 +20,8 @@ spring:
       client:
         registration:
           facebook:
-            client-id: <your-secret-here>
-            client-secret: <your-secret-here>
+            client-id: 2982721938503866
+            client-secret: 29cea80ed4a228364d93ad2fac13a6da
 thymeleaf:
   cache: false
   mvc:
