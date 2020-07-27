@@ -1,25 +1,23 @@
 package bg.softuni.aop;
 
 import bg.softuni.aop.models.Student;
-import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.Around;
+import bg.softuni.aop.sla.SLOsConfig;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 @Component
 public class AopInit implements CommandLineRunner {
 
-    private final Student student;
+    private final SLOsConfig slOsConfig;
 
-    public AopInit(Student student) {
-        this.student = student;
+    public AopInit(SLOsConfig slOsConfig) {
+        this.slOsConfig = slOsConfig;
+
     }
 
     @Override
     public void run(String... args) throws Exception {
-       // student.sayHello();
-        student.echo("123");
+        System.out.println(slOsConfig);
     }
 
 

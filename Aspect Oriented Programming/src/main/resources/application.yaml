@@ -1,4 +1,11 @@
-#
+slos-config:
+  slos:
+    -
+      id: operation1
+      theshold: 15
+    -
+      id: operation2
+      threshold: 150
 #
 #spring:
 #  datasource:

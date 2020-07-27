@@ -1,5 +1,6 @@
 package com.tabula.config;
 
+import com.tabula.users.OAuth2UserAuthSuccessHandler;
 import com.tabula.users.service.UserDetailsServiceImpl;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +21,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     public final UserDetailsServiceImpl userDetailsService;
     private final PasswordEncoder passwordEncoder;
+    private final OAuth2UserAuthSuccessHandler oAuth2UserAuthSuccessHandler;
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
@@ -39,7 +41,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                     .logoutUrl("/logout")
                     .logoutSuccessUrl("/login")
                     .invalidateHttpSession(true)
-                    .deleteCookies("JSESSIONID");
+                    .deleteCookies("JSESSIONID")
+                .and()
+                    .oauth2Login()
+                    .loginPage("/login")
+                    .successHandler(oAuth2UserAuthSuccessHandler);
     }
 
     @Autowired
